@@ -1,0 +1,173 @@
+<!-- Carousel Start -->
+<div class="container-fluid overflow-hidden px-0">
+  <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <video #slideVideo autoplay muted="muted" loop playsinline>
+          <source src="img/video-1.mp4" type="video/mp4" />
+        </video>
+        <div class="carousel-caption flex-1">
+          <h1
+            class="display-4 text-capitalize text-white mb-4 fadeInUp animate__animated"
+            data-animation="fadeInUp"
+            data-delay="1.3s"
+            style="animation-delay: 1.3s"
+          >
+            {{ 'carousel.first.title' | translate }}
+          </h1>
+          <p
+            class="mb-5 fs-5 fadeInUp animate__animated"
+            data-animation="fadeInUp"
+            data-delay="1.5s"
+            style="animation-delay: 1.5s"
+          >
+            {{ 'carousel.first.desc' | translate }}
+          </p>
+          <div class="d-flex justify-content-center">
+            <a
+              class="btn btn-primary d-flex py-3 px-4 px-md-5 me-2 flex-shrink-0 fadeInUp animate__animated rounded"
+              data-animation="fadeInUp"
+              data-delay="1.5s"
+              style="animation-delay: 1.7s"
+              routerLink="/contact"
+              >{{ 'app.buttons.apply' | translate }}</a
+            >
+            <a
+              class="btn btn-secondary d-inline-block py-3 px-4 px-md-5 ms-2 flex-shrink-0 fadeInUp animate__animated rounded"
+              data-animation="fadeInUp"
+              data-delay="1.5s"
+              style="animation-delay: 1.7s"
+              routerLink="/blog"
+              >{{ 'app.buttons.read' | translate }}</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <video #slideVideo autoplay muted="muted" loop playsinline>
+          <source src="img/video-2.mp4" type="video/mp4" />
+        </video>
+        <div class="carousel-caption">
+          <h1
+            class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated"
+            data-animation="fadeInUp"
+            data-delay="1.3s"
+            style="animation-delay: 1.3s"
+          >
+            {{ 'carousel.second.title' | translate }}
+          </h1>
+          <p
+            class="mb-5 fs-5 fadeInUp animate__animated"
+            data-animation="fadeInUp"
+            data-delay="1.5s"
+            style="animation-delay: 1.5s"
+          >
+            {{ 'carousel.second.desc' | translate }}
+          </p>
+          <div class="d-flex justify-content-center">
+            <a
+              class="btn btn-primary d-flex py-3 px-4 px-md-5 me-2 flex-shrink-0 fadeInUp animate__animated rounded"
+              data-animation="fadeInUp"
+              data-delay="1.5s"
+              style="animation-delay: 1.7s"
+              routerLink="/contact"
+              >{{ 'app.buttons.apply' | translate }}</a
+            >
+            <a
+              class="btn btn-secondary d-inline-block py-3 px-4 px-md-5 ms-2 flex-shrink-0 fadeInUp animate__animated rounded"
+              data-animation="fadeInUp"
+              data-delay="1.5s"
+              style="animation-delay: 1.7s"
+              routerLink="/blog"
+              >{{ 'app.buttons.read' | translate }}</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item text-center">
+        <video #slideVideo autoplay muted="muted" loop playsinline>
+          <source src="img/video-3.mp4" type="video/mp4" />
+        </video>
+        <div class="carousel-caption">
+          <h1
+            class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated"
+            data-animation="fadeInUp"
+            data-delay="1.3s"
+            style="animation-delay: 1.3s"
+          >
+            {{ 'carousel.third.title' | translate }}
+          </h1>
+          <p
+            class="mb-5 fs-5 fadeInUp animate__animated"
+            data-animation="fadeInUp"
+            data-delay="1.5s"
+            style="animation-delay: 1.5s"
+          >
+            {{ 'carousel.third.desc' | translate }}
+          </p>
+          <div class="d-flex justify-content-center">
+            <a
+              class="btn btn-primary d-flex py-3 px-4 px-md-5 me-2 flex-shrink-0 fadeInUp animate__animated rounded"
+              data-animation="fadeInUp"
+              data-delay="1.5s"
+              style="animation-delay: 1.7s"
+              routerLink="/contact"
+              >{{ 'app.buttons.apply' | translate }}</a
+            >
+            <a
+              class="btn btn-secondary d-inline-block py-3 px-4 px-md-5 ms-2 flex-shrink-0 fadeInUp animate__animated rounded"
+              data-animation="fadeInUp"
+              data-delay="1.5s"
+              style="animation-delay: 1.7s"
+              routerLink="/blog"
+              >{{ 'app.buttons.read' | translate }}</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselId"
+      data-bs-slide="prev"
+    >
+      <span
+        class="carousel-control-prev-icon btn-lg-square fadeInLeft animate__animated"
+        aria-hidden="true"
+        data-animation="fadeInLeft"
+        data-delay="1.1s"
+        style="animation-delay: 1.3s"
+        ><i class="fas fa-chevron-left fa-2x"></i
+      ></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselId"
+      data-bs-slide="next"
+    >
+      <span
+        class="carousel-control-next-icon btn-lg-square fadeInRight animate__animated"
+        aria-hidden="true"
+        data-animation="fadeInRight"
+        data-delay="1.1s"
+        style="animation-delay: 1.3s"
+        ><i class="fas fa-chevron-right fa-2x"></i
+      ></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!-- Carousel End -->
+
+<app-about-section></app-about-section>
+
+<app-features-section></app-features-section>
+
+<app-services-section></app-services-section>
+
+<app-blog-section></app-blog-section>
+
+<app-contact-section></app-contact-section>

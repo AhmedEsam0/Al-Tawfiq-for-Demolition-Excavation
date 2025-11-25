@@ -1,0 +1,65 @@
+<div class="container-fluid sticky-top px-0">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
+    <a routerLink="/home" class="navbar-brand p-0">
+      <h3 class="text-secondary fs-4 fw-bold">
+        <img src="img/logo.png" alt="" width="64px" height="64px" />
+        {{ 'nav.title' | translate }}
+      </h3>
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarCollapse"
+    >
+      <span class="fa fa-bars"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+      <div class="navbar-nav pt-2 pt-lg-0">
+        <a
+          [routerLink]="'/home'"
+          [routerLinkActive]="'active'"
+          [routerLinkActiveOptions]="{ exact: true }"
+          class="nav-item nav-link text-center fw-bold"
+          >{{ 'nav.home' | translate }}</a
+        >
+        <a
+          [routerLink]="'/about'"
+          [routerLinkActive]="'active'"
+          [routerLinkActiveOptions]="{ exact: true }"
+          class="nav-item nav-link text-center fw-bold"
+          >{{ 'nav.about' | translate }}</a
+        >
+        <a
+          [routerLink]="'/services'"
+          [routerLinkActive]="'active'"
+          [routerLinkActiveOptions]="{ exact: true }"
+          class="nav-item nav-link text-center fw-bold"
+          >{{ 'nav.services' | translate }}</a
+        >
+
+        <a
+          [routerLink]="'/features'"
+          [routerLinkActive]="'active'"
+          [routerLinkActiveOptions]="{ exact: true }"
+          class="nav-item nav-link text-center fw-bold"
+          >{{ 'nav.features' | translate }}</a
+        >
+        <a
+          [routerLink]="'/blog'"
+          [routerLinkActive]="'active'"
+          [routerLinkActiveOptions]="{ exact: true }"
+          class="nav-item nav-link text-center fw-bold"
+          >{{ 'nav.blog' | translate }}</a
+        >
+        <a
+          [routerLink]="'/contact'"
+          [routerLinkActive]="'active'"
+          [routerLinkActiveOptions]="{ exact: true }"
+          class="nav-item nav-link text-center fw-bold"
+          >{{ 'nav.contact' | translate }}</a
+        >
+      </div>
+    </div>
+  </nav>
+</div>

@@ -1,0 +1,171 @@
+{
+  "app": {
+    "buttons": {
+      "apply": "Apply Now",
+      "read": "Read More",
+      "discover": "Discover More",
+      "send": "Send Message",
+      "signup": "Sign Up"
+    }
+  },
+
+  "topbar": {
+    "location": "Find Our Location"
+  },
+
+  "nav": {
+    "title": "Al Tawfiq for Demolition, Excavation and Debris Removal",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "features": "Features",
+    "blog": "Our Blog",
+    "contact": "Contact"
+  },
+
+  "carousel": {
+    "first": {
+      "title": "Professional Demolition & Excavation You Can Trust",
+      "desc": "We turn old, complex sites into build-ready land with safe, precise demolition and excavation using modern equipment"
+    },
+    "second": {
+      "title": "From Demolition to Groundwork We Handle It All",
+      "desc": "From homes to industrial structures, we handle full or partial demolition with a safety-driven approach, leaving you with a clean, build-ready site"
+    },
+    "third": {
+      "title": "We Prepare Your Land for What Comes Next",
+      "desc": "Before excavation begins, we inspect the land, determine excavation requirements, and prepare the area to guarantee a smooth and efficient construction start"
+    }
+  },
+
+  "about": {
+    "company": "WE ARE A DEMOLITION & EXCAVATION COMPANY",
+    "believe": "We believe that every successful project begins from the ground",
+    "desc": "Backed by years of hands-on experience, we expertly dismantle structures and prepare sites for construction through careful planning and precise execution — delivering land that’s fully ready to bring your vision to life",
+    "quotes": {
+      "first": "Premium Demolition Standards",
+      "second": "Certified Engineering Team"
+    },
+    "achievements": {
+      "first": "100% Client Satisfaction",
+      "second": "Highly Trained Staff",
+      "third": "Annual Service Plans",
+      "fourth": "Flexible & Cost-Effective Solutions"
+    }
+  },
+  "features": {
+    "why": "Why Us",
+    "choose": "Why Choose Us",
+
+    "licensed": {
+      "title": "Officially Licensed Company",
+      "desc": "We are officially licensed in the Emirate of Umm Al Quwain and fully compliant with all municipality procedures and local regulations."
+    },
+
+    "experience": {
+      "title": "Specialized Demolition & Excavation Expertise",
+      "desc": "We have deep experience in assessing buildings and handling each site based on its unique structure to ensure maximum safety and professional execution."
+    },
+
+    "equipment": {
+      "title": "Modern Heavy Equipment",
+      "desc": "We rely on advanced machinery including excavators, concrete breakers, and hydraulic hammers to complete all demolition work efficiently and with high precision."
+    },
+
+    "team": {
+      "title": "Professional Engineering Team",
+      "desc": "Our specialized engineers and trained workers are capable of dealing with all conditions and applying the best work practices to achieve safe and accurate results."
+    },
+
+    "quality": {
+      "title": "High Quality & Competitive Prices",
+      "desc": "We deliver excellent service with high quality, transparency, and full respect for our clients—while maintaining fair and competitive pricing."
+    },
+
+    "safety": {
+      "title": "Top-Level Site Safety",
+      "desc": "We prioritize site safety through protective fencing, safety officers, personal protective equipment, and clear warning signs at all times."
+    },
+
+    "emergency": {
+      "title": "Integrated Emergency Plan",
+      "desc": "We maintain a ready emergency plan that includes first-aid points, emergency exits, worker training, and direct communication with authorities."
+    }
+  },
+  "services": {
+    "title": "our service is creative & decent",
+    "demolition": {
+      "first": {
+        "title": "Complete & Partial Demolition",
+        "desc": "Full or partial building demolition according to project requirements, executed safely and efficiently on every site."
+      },
+      "second": {
+        "title": "Debris Removal & Cleaning",
+        "desc": "Removal of debris and complete cleaning of the site after demolition work is finished carefully and professionally."
+      },
+      "third": {
+        "title": "Mechanical Demolition",
+        "desc": "Mechanical demolition using excavators with hydraulic hammers and concrete cutters for high precision and efficiency."
+      },
+      "fourth": {
+        "title": "Manual Demolition",
+        "desc": "Manual demolition near neighboring buildings to ensure their safety during all phases of the work."
+      },
+      "fifth": {
+        "title": "Top Gradual Demolition",
+        "desc": "Top gradual demolition of the structure to minimize risks and maintain full safety on site."
+      }
+    },
+
+    "excavation": {
+      "first": {
+        "title": "Land Excavation",
+        "desc": "Excavating land and fully preparing it for construction according to project requirements safely."
+      },
+      "second": {
+        "title": "Ground Leveling",
+        "desc": "Leveling the ground and removing unsuitable soil layers to ensure a stable foundation for building."
+      },
+      "third": {
+        "title": "Foundation Preparation",
+        "desc": "Preparing foundations in full compliance with municipality and project regulations and requirements."
+      }
+    },
+
+    "paperwork": {
+      "title": "Permits & Approvals",
+      "desc": "Handling all demolition or excavation procedures and approvals with Umm Al Quwain municipality efficiently."
+    }
+  },
+  "blog": {
+    "news": "News & Blog",
+    "title": "Our latest news",
+    "date": {
+      "1": "21 September 2024",
+      "2": "3 February 2025",
+      "3": "12 April 2025"
+    },
+    "author": {
+      "1": "Management",
+      "2": "Safety",
+      "3": "Technical"
+    },
+    "content": {
+      "1": "Completion of a Demolition Project in Umm Al Quwain",
+      "2": "Launching a New Safety Initiative Across All Demolition Sites",
+      "3": "Upgrading Our Machinery Fleet to Enhance Project Efficiency"
+    }
+  },
+  "contact": {
+    "connect": "Let's Connect",
+    "message": "Send Your Message",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "phone": "Your Phone",
+      "project": "Your Project",
+      "subject": "Subject",
+      "msg": "Message"
+    }
+  }
+}

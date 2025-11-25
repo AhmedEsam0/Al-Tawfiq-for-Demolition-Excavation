@@ -1,0 +1,35 @@
+<div class="container-fluid blog bg-light py-5">
+  <div class="container py-5">
+    <div
+      class="text-center mx-auto pb-5 wow fadeInUp"
+      data-wow-delay="0.2s"
+      style="max-width: 800px"
+    >
+      <p class="text-uppercase text-secondary fs-5 mb-0">{{ 'blog.news' | translate }}</p>
+      <h2 class="display-4 text-capitalize mb-3">{{ 'blog.title' | translate }}</h2>
+    </div>
+    <div class="row g-4">
+      @for (i of [1,2,3]; track $index) {
+      <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="blog-item h-100">
+          <div class="blog-img">
+            <img [src]="`img/blog-${i}.jpg`" class="img-fluid w-100" alt="" />
+          </div>
+          <div class="blog-content p-4">
+            <div class="d-flex justify-content-between mb-3">
+              <p class="mb-0">
+                <i class="fa fa-calendar-check text-secondary me-1"></i>
+                {{ 'blog.date.' + i | translate }}
+              </p>
+              <p class="mb-0">
+                <i class="fa fa-user text-secondary me-1"></i> {{ 'blog.author.' + i | translate }}
+              </p>
+            </div>
+            <p class="h4 d-block mb-4">{{ 'blog.content.' + i | translate }}</p>
+          </div>
+        </div>
+      </div>
+      }
+    </div>
+  </div>
+</div>

@@ -1,0 +1,84 @@
+<div class="container-fluid about py-5">
+  <div class="container py-5">
+    <div class="row g-5 align-items-center">
+      <div class="col-xl-6 wow fadeInLeft rounded-3" data-wow-delay="0.1s">
+        <div class="about-item-image d-flex rounded-3">
+          <img src="img/about.jpg" class="img-1 img-fluid w-50 rounded-3" alt="" />
+          <img src="img/about-3.jpg" class="img-2 img-fluid w-50 rounded-3" alt="" />
+          <div class="about-item-image-content">
+            <img
+              src="img/about-1.png"
+              class="img-fluid w-100 h-100"
+              style="object-fit: cover"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.1s">
+        <div class="about-item-content">
+          <p class="text-uppercase text-secondary fs-5 mb-0">
+            {{ 'about.company' | translate }}
+          </p>
+          <h2 class="fs-1 fw-bold text-capitalize mb-3">{{ 'about.believe' | translate }}</h2>
+          <p class="mb-4 fs-5">
+            {{ 'about.desc' | translate }}
+          </p>
+          <div class="pb-4 mb-4 border-bottom">
+            <div class="row g-4">
+              <div class="col-lg-4">
+                <div class="about-item-content-img rounded-3">
+                  <img src="img/about-2.jpg" class="img-fluid w-100 rounded-3" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-8 d-flex flex-column justify-content-center">
+                <div class="d-flex mb-4">
+                  <div class="text-secondary">
+                    <i class="fas fa-user-shield fa-3x"></i>
+                  </div>
+                  <h4 class="ms-3 mb-0 d-flex align-items-center">
+                    {{ 'about.quotes.first' | translate }}
+                  </h4>
+                </div>
+                <div class="d-flex">
+                  <div class="text-secondary">
+                    <i class="fas fa-users-cog fa-3x"></i>
+                  </div>
+                  <h4 class="ms-3 mb-0 d-flex align-items-center">
+                    {{ 'about.quotes.second' | translate }}
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row gy-0 gx-4 justify-content-between pb-4">
+            <div class="col-lg-6">
+              <p class="text-dark">
+                <i class="fas fa-check text-secondary me-1"></i>
+                {{ 'about.achievements.first' | translate }}
+              </p>
+              <p class="text-dark">
+                <i class="fas fa-check text-secondary me-1"></i>
+                {{ 'about.achievements.second' | translate }}
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <p class="text-dark">
+                <i class="fas fa-check text-secondary me-1"></i> {{'about.achievements.third'|translate}}
+              </p>
+              <p class="text-dark mb-0">
+                <i class="fas fa-check text-secondary me-1"></i> {{'about.achievements.fourth'|translate}}
+              </p>
+            </div>
+          </div>
+          <a
+            class="btn btn-secondary d-inline-block py-3 px-5 me-2 flex-shrink-0 wow fadeInUp rounded"
+            data-wow-delay="0.1s"
+            routerLink="/services"
+            >{{ 'app.buttons.discover' | translate }}</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
