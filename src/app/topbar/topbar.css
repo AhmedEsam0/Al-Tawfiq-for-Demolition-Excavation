@@ -21,6 +21,6 @@
   z-index: 100000000;
 }
 
-:dir(rtl) i.fas {
-  transform: scaleX(-1);
+:dir(ltr) i.fas {
+  transform: scaleX(-1) !important;
 }

@@ -7,11 +7,9 @@ import { TranslateService } from '@ngx-translate/core';
 export class LanguageSwitch {
   constructor(private translateService: TranslateService) {
     this.translateService.addLangs(['ar', 'en']);
-    this.translateService.setFallbackLang('en');
+    this.translateService.setFallbackLang('ar');
 
-    const savedLang = typeof window !== 'undefined'
-      ? localStorage.getItem('lang') || 'en'
-      : 'en';
+    const savedLang = typeof window !== 'undefined' ? localStorage.getItem('lang') || 'ar' : 'ar';
 
     this.translateService.use(savedLang);
     if (typeof window !== 'undefined') {
@@ -29,8 +27,6 @@ export class LanguageSwitch {
   }
 
   getDirection() {
-    return typeof window !== 'undefined'
-      ? document.documentElement.dir
-      : 'ltr';
+    return typeof window !== 'undefined' ? document.documentElement.dir : 'ltr';
   }
 }
