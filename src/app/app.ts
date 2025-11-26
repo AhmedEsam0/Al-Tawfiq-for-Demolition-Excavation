@@ -26,9 +26,5 @@ import { Footer } from './footer/footer';
 export class App {
   protected readonly title = signal('Al-Tawfiq');
 
-  constructor(private translate:TranslateService) {
-    this.translate.addLangs(['ar', 'en']);
-    this.translate.setFallbackLang('en');
-    this.translate.use('en');
-  }
+  
 }

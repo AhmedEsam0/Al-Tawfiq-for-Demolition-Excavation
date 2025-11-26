@@ -14,7 +14,7 @@
   },
 
   "nav": {
-    "title": "Al Tawfiq for Demolition, Excavation and Debris Removal",
+    "title": "Al Tawfiq for Demolition",
     "home": "Home",
     "about": "About",
     "services": "Services",
@@ -167,5 +167,16 @@
       "subject": "Subject",
       "msg": "Message"
     }
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Newsletter",
+      "desc": "Subscribe to our newsletter to receive the latest updates, industry insights, project highlights, and exclusive offers delivered straight to your inbox"
+    },
+    "explore": { "title": "Explore" },
+    "contact": { "title": "Contact Info" }
+  },
+  "copyrights": {
+    "rights": "All right reserved"
   }
 }

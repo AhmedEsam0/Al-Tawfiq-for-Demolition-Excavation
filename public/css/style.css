@@ -146,9 +146,10 @@
 }
 
 .navbar .navbar-toggler {
-  padding: 8px 15px;
+  padding: 5px 9px;
   color: var(--bs-dark);
   background: var(--bs-secondary);
+  border-radius: 5px;
 }
 
 .nav-bar .navbar-toggler {
@@ -673,3 +674,5 @@
   background: var(--bs-dark);
 }
 /*** copyright end ***/
+
+

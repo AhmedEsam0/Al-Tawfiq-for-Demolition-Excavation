@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-copyright',
-  imports: [],
+  imports: [TranslatePipe],
   templateUrl: './copyright.html',
   styleUrl: './copyright.css',
 })

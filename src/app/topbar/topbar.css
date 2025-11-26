@@ -1,3 +1,26 @@
-.dropdown{
+@media (max-width: 575.98px) {
+  .topbar {
+    padding-inline-end: 0;
+    padding-inline-start: 16px !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .nav-links-position {
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 1199.98px) {
+  .nav-links-position {
+    justify-content: flex-end;
+  }
+}
+
+.dropdown {
   z-index: 100000000;
+}
+
+:dir(rtl) i.fas {
+  transform: scaleX(-1);
 }

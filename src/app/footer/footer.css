@@ -1,0 +1,9 @@
+:dir(rtl) i.fas {
+  transform: scaleX(-1);
+}
+
+.end{
+  position: absolute;
+  inset-inline-end: 0 !important;
+  top: 0 !important;
+}
