@@ -26,5 +26,5 @@ import { Footer } from './footer/footer';
 export class App {
   protected readonly title = signal('Al-Tawfiq');
 
-  
+
 }
